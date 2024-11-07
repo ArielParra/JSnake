@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JSnake</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <script src="js/main.js" defer></script>
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+  <header>
+    <img src="favicon.png" alt="snake icon" style="image-rendering: pixelated; display: inline-block; width: 32px; height: 32px;">
+      <h1 style="display: inline; margin-left: 10px;">JSnake by Ariel Parra</h1>
+  </header>
+
+  <div class="wrapper">
+
+    <div class="difficulty">
+      <button id="easy">Easy</button>
+      <button id="normal">Normal</button>
+      <button id="hard">Hard</button>
+    </div>
+
+    <div class="game-details">
+      <span class="score">score: 0</span>
+      <span class="high-score">high-score: 0</span>
+
+    </div>
+    <div class="play-board"></div>
+    <div class="controls">
+      <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+      <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+      <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+      <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+    </div>
+    <div class="message" id="message">Press a key to start</div>
+  </div>
+  <footer>
+    <p>Made with ❤️ by Ariel Parra</p>
+  </footer>
+</body>
+
+</html>
