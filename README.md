@@ -2,7 +2,7 @@
 
 **JSnake** is the classic Snake game built with JavaScript + HTML + CSS using the [Nord color palette](https://www.nordtheme.com/). This lightweight game is an exciting way to pass the time, and it runs in any modern web browser on both PC and mobile devices.
 
-![Screenshot](screenshot.png)
+![demo](demo.gif)
 
 ## Features
 - **Three Difficulty Levels**: Choose from Easy, Normal, or Hard to match your preferred challenge level.
